@@ -6,7 +6,7 @@ st.title("Aadhaar Demo App – Multi-step")
 st.header("Step 1: Enter Your Basic Info")
 name = st.text_input("Enter your Name:")
 email = st.text_input("Enter your Email:")
-aadhaar = st.text_input("Enter Aadhaar Number:")
+aadhaar = st.text_input("Enter Aadhaar Number(Dummy number):")
 
 st.markdown("---")  # separator
 
@@ -35,3 +35,4 @@ if aadhaar:
     st.write("Verification Result:", verification)
 else:
     st.write("Please enter Aadhaar number in Step 1.")
+
